@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - My Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="profile.html" class="active">Profile</a></li>
+            <li><a href="tech-tools.html">Tech Tools</a></li>
+            <li><a href="reading-list.html">Reading List</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>My Profile</h1>
+        
+        <section class="profile-form">
+            <h2>Personal Information</h2>
+            <form>
+                <div class="form-group">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" id="dob" name="dob" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="gender">Gender:</label>
+                    <select id="gender" name="gender" required>
+                        <option value="">Select Gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                        <option value="prefer-not-to-say">Prefer not to say</option>
+                    </select>
+                </div>
+                
+                <button type="submit">Save Profile</button>
+            </form>
+        </section>
+        
+        <section class="hobbies">
+            <h2>My Top 5 Hobbies</h2>
+            <ol>
+                <li>Photography</li>
+                <li>Reading tech blogs</li>
+                <li>Hiking and outdoor activities</li>
+                <li>Playing musical instruments</li>
+                <li>Cooking new recipes</li>
+            </ol>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My Website.</p>
+    </footer>
+</body>
+</html>
